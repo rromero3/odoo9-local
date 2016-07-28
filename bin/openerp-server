@@ -1,0 +1,4 @@
+#!/opt/bitnami/python/bin/python
+# EASY-INSTALL-SCRIPT: 'odoo==9.0rc20160620','openerp-server'
+__requires__ = 'odoo==9.0rc20160620'
+__import__('pkg_resources').run_script('odoo==9.0rc20160620', 'openerp-server')

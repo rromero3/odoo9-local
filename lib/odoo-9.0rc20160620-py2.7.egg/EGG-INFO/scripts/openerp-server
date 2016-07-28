@@ -1,0 +1,6 @@
+#!/opt/bitnami/python/bin/python
+import openerp
+
+if __name__ == "__main__":
+    openerp.cli.main()
+

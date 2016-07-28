@@ -1,0 +1,4 @@
+#!/opt/bitnami/python/bin/python
+# EASY-INSTALL-SCRIPT: 'qrcode==5.0.1','qr'
+__requires__ = 'qrcode==5.0.1'
+__import__('pkg_resources').run_script('qrcode==5.0.1', 'qr')

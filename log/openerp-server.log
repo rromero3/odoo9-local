@@ -1,0 +1,70 @@
+2016-07-19 03:11:55,023 1524 INFO ? openerp: OpenERP version 9.0c-20160620
+2016-07-19 03:11:55,023 1524 INFO ? openerp: addons paths: ['/opt/bitnami/apps/odoo/data/addons/9.0', u'/opt/bitnami/apps/odoo/lib/odoo-9.0rc20160620-py2.7.egg/openerp/addons']
+2016-07-19 03:11:55,023 1524 INFO ? openerp: database: bn_openerp@127.0.0.1:5432
+2016-07-19 03:11:55,389 1524 INFO bitnami_openerp openerp.modules.loading: loading 1 modules...
+2016-07-19 03:11:55,398 1524 INFO bitnami_openerp openerp.modules.loading: 1 modules loaded in 0.01s, 0 queries
+2016-07-19 03:11:55,455 1524 INFO bitnami_openerp openerp.modules.loading: loading 29 modules...
+2016-07-19 03:11:55,490 1524 INFO ? openerp.addons.bus.models.bus: Bus.loop listen imbus on db postgres
+2016-07-19 03:11:55,597 1524 INFO bitnami_openerp openerp.addons.report.models.report: You need Wkhtmltopdf to print a pdf version of the reports.
+2016-07-19 03:11:55,783 1524 INFO bitnami_openerp openerp.modules.loading: 29 modules loaded in 0.33s, 0 queries
+2016-07-19 03:11:56,095 1524 INFO bitnami_openerp openerp.modules.loading: Modules loaded.
+2016-07-19 03:12:16,871 1548 INFO ? openerp: OpenERP version 9.0c-20160620
+2016-07-19 03:12:16,871 1548 INFO ? openerp: addons paths: ['/opt/bitnami/apps/odoo/data/addons/9.0', u'/opt/bitnami/apps/odoo/lib/odoo-9.0rc20160620-py2.7.egg/openerp/addons']
+2016-07-19 03:12:16,872 1548 INFO ? openerp: database: bn_openerp@127.0.0.1:5432
+2016-07-19 03:12:17,185 1548 INFO ? openerp.service.server: Evented Service (longpolling) running on 0.0.0.0:8072
+2016-07-19 03:12:55,538 1524 INFO bitnami_openerp openerp.addons.base.ir.ir_autovacuum: GC'd 0 user log entries
+2016-07-19 03:56:04,337 1548 INFO ? openerp.addons.report.models.report: You need Wkhtmltopdf to print a pdf version of the reports.
+2016-07-19 03:56:04,588 1548 INFO ? openerp.http: HTTP Configuring static files
+2016-07-19 03:56:04,591 1548 INFO ? openerp.addons.bus.models.bus: Bus.loop listen imbus on db postgres
+2016-07-19 03:56:04,611 1548 INFO bitnami_openerp openerp.modules.loading: loading 1 modules...
+2016-07-19 03:56:04,621 1548 INFO bitnami_openerp openerp.modules.loading: 1 modules loaded in 0.01s, 0 queries
+2016-07-19 03:56:04,634 1548 INFO bitnami_openerp openerp.modules.loading: loading 29 modules...
+2016-07-19 03:56:04,691 1548 INFO bitnami_openerp openerp.modules.loading: 29 modules loaded in 0.06s, 0 queries
+2016-07-19 03:56:04,986 1548 INFO bitnami_openerp openerp.modules.loading: Modules loaded.
+2016-07-19 03:56:04,989 1548 INFO bitnami_openerp openerp.addons.base.ir.ir_http: Generating routing map
+2016-07-19 03:56:15,515 1548 INFO bitnami_openerp openerp.service.common: successful login from 'user@example.com' using database 'bitnami_openerp'
+2016-07-19 19:18:55,781 1524 INFO bitnami_openerp openerp.addons.base.ir.ir_autovacuum: GC'd 1 user log entries
+2016-07-19 19:20:00,783 1524 INFO bitnami_openerp openerp.service.server: Initiating shutdown
+2016-07-19 19:20:00,784 1524 INFO bitnami_openerp openerp.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+2016-07-19 19:20:36,767 999 INFO ? openerp: OpenERP version 9.0c-20160620
+2016-07-19 19:20:36,767 999 INFO ? openerp: addons paths: ['/opt/bitnami/apps/odoo/data/addons/9.0', u'/opt/bitnami/apps/odoo/lib/odoo-9.0rc20160620-py2.7.egg/openerp/addons']
+2016-07-19 19:20:36,767 999 INFO ? openerp: database: bn_openerp@127.0.0.1:5432
+2016-07-19 19:20:37,036 999 INFO bitnami_openerp openerp.modules.loading: loading 1 modules...
+2016-07-19 19:20:37,043 999 INFO bitnami_openerp openerp.modules.loading: 1 modules loaded in 0.01s, 0 queries
+2016-07-19 19:20:37,071 999 INFO bitnami_openerp openerp.modules.loading: loading 29 modules...
+2016-07-19 19:20:37,094 999 INFO ? openerp.addons.bus.models.bus: Bus.loop listen imbus on db postgres
+2016-07-19 19:20:37,176 999 INFO bitnami_openerp openerp.addons.report.models.report: You need Wkhtmltopdf to print a pdf version of the reports.
+2016-07-19 19:20:37,293 999 INFO bitnami_openerp openerp.modules.loading: 29 modules loaded in 0.22s, 0 queries
+2016-07-19 19:20:37,587 999 INFO bitnami_openerp openerp.modules.loading: Modules loaded.
+2016-07-19 19:20:58,670 1034 INFO ? openerp: OpenERP version 9.0c-20160620
+2016-07-19 19:20:58,670 1034 INFO ? openerp: addons paths: ['/opt/bitnami/apps/odoo/data/addons/9.0', u'/opt/bitnami/apps/odoo/lib/odoo-9.0rc20160620-py2.7.egg/openerp/addons']
+2016-07-19 19:20:58,670 1034 INFO ? openerp: database: bn_openerp@127.0.0.1:5432
+2016-07-19 19:20:58,877 1034 INFO ? openerp.service.server: Evented Service (longpolling) running on 0.0.0.0:8072
+2016-07-19 19:24:32,006 1034 INFO ? openerp.addons.report.models.report: You need Wkhtmltopdf to print a pdf version of the reports.
+2016-07-19 19:24:32,234 1034 INFO ? openerp.http: HTTP Configuring static files
+2016-07-19 19:24:32,236 1034 INFO ? openerp.addons.bus.models.bus: Bus.loop listen imbus on db postgres
+2016-07-19 19:24:32,255 1034 INFO bitnami_openerp openerp.modules.loading: loading 1 modules...
+2016-07-19 19:24:32,262 1034 INFO bitnami_openerp openerp.modules.loading: 1 modules loaded in 0.01s, 0 queries
+2016-07-19 19:24:32,273 1034 INFO bitnami_openerp openerp.modules.loading: loading 29 modules...
+2016-07-19 19:24:32,326 1034 INFO bitnami_openerp openerp.modules.loading: 29 modules loaded in 0.05s, 0 queries
+2016-07-19 19:24:32,656 1034 INFO bitnami_openerp openerp.modules.loading: Modules loaded.
+2016-07-19 19:24:32,660 1034 INFO bitnami_openerp openerp.addons.base.ir.ir_http: Generating routing map
+2016-07-19 21:18:16,177 1034 WARNING bitnami_openerp openerp.http: CSRF validation failed on path '/web/login'
+2016-07-19 21:18:21,583 1034 WARNING bitnami_openerp openerp.http: CSRF validation failed on path '/web/login'
+2016-07-19 21:18:27,470 1034 WARNING bitnami_openerp openerp.http: CSRF validation failed on path '/web/login'
+2016-07-19 23:09:11,074 1034 WARNING bitnami_openerp openerp.http: CSRF validation failed on path '/web/login'
+2016-07-28 01:31:13,565 1000 INFO ? openerp: OpenERP version 9.0c-20160620
+2016-07-28 01:31:13,565 1000 INFO ? openerp: addons paths: ['/opt/bitnami/apps/odoo/data/addons/9.0', u'/opt/bitnami/apps/odoo/lib/odoo-9.0rc20160620-py2.7.egg/openerp/addons']
+2016-07-28 01:31:13,566 1000 INFO ? openerp: database: bn_openerp@127.0.0.1:5432
+2016-07-28 01:31:14,000 1000 INFO bitnami_openerp openerp.modules.loading: loading 1 modules...
+2016-07-28 01:31:14,008 1000 INFO bitnami_openerp openerp.modules.loading: 1 modules loaded in 0.01s, 0 queries
+2016-07-28 01:31:14,040 1000 INFO bitnami_openerp openerp.modules.loading: loading 29 modules...
+2016-07-28 01:31:14,074 1000 INFO ? openerp.addons.bus.models.bus: Bus.loop listen imbus on db postgres
+2016-07-28 01:31:14,212 1000 INFO bitnami_openerp openerp.addons.report.models.report: You need Wkhtmltopdf to print a pdf version of the reports.
+2016-07-28 01:31:14,394 1000 INFO bitnami_openerp openerp.modules.loading: 29 modules loaded in 0.35s, 0 queries
+2016-07-28 01:31:14,791 1000 INFO bitnami_openerp openerp.modules.loading: Modules loaded.
+2016-07-28 01:31:35,241 1034 INFO ? openerp: OpenERP version 9.0c-20160620
+2016-07-28 01:31:35,241 1034 INFO ? openerp: addons paths: ['/opt/bitnami/apps/odoo/data/addons/9.0', u'/opt/bitnami/apps/odoo/lib/odoo-9.0rc20160620-py2.7.egg/openerp/addons']
+2016-07-28 01:31:35,241 1034 INFO ? openerp: database: bn_openerp@127.0.0.1:5432
+2016-07-28 01:31:35,540 1034 INFO ? openerp.service.server: Evented Service (longpolling) running on 0.0.0.0:8072
+2016-07-28 01:32:14,165 1000 INFO bitnami_openerp openerp.addons.base.ir.ir_autovacuum: GC'd 0 user log entries
