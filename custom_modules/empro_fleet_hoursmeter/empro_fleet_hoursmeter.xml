@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+
+       <record model='ir.ui.view' id='fleet_vehicle_hoursmeter_form'>
+            <field name="name">fleet.vehicle.hoursmeter.form</field>
+            <field name="model">fleet.vehicle.hoursmeter</field>
+            <field name="arch" type="xml">
+                <form string="hoursmeter Logs">
+                    <sheet>
+                        <group>
+                            <field name="vehicle_id" on_change="on_change_vehicle(vehicle_id)"/>
+                                <div>
+                                    <field name="value" class="oe_inline"/>
+                                </div>
+                            <field name="date" />
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model='ir.ui.view' id='fleet_vehicle_hoursmeter_tree'>
+            <field name="name">fleet.vehicle.hoursmeter.tree</field>
+            <field name="model">fleet.vehicle.hoursmeter</field>
+            <field name="arch" type="xml">
+                <tree string="hoursmeter Logs" editable="top">
+                    <field name="date" />
+                    <field name="vehicle_id" on_change="on_change_vehicle(vehicle_id)"/>
+                    <field name="value" />
+                    <field name="notes"/>
+                </tree>
+
+            </field>
+        </record>
+
+        <record model='ir.ui.view' id='fleet_vehicle_hoursmeter_search'>
+            <field name="name">fleet.vehicle.hoursmeter.search</field>
+            <field name="model">fleet.vehicle.hoursmeter</field>
+            <field name="arch" type="xml">
+                <search string="Vehicles hoursmeters" >
+                    <field name="vehicle_id" />
+                    <field name="value"/>
+                    <field name="date"/>
+                    <field name="notes"/>
+                    <group expand="0" string="Group By">
+                        <filter name="groupby_vehicle" context="{'group_by' : 'vehicle_id'}" string="Vehicle"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="fleet_vehicle_hoursmeter_graph">
+           <field name="name">fleet.vehicle.hoursmeter.graph</field>
+           <field name="model">fleet.vehicle.hoursmeter</field>
+           <field name="arch" type="xml">
+                <graph string="hoursmeter Values Per Vehicle">
+                    <field name="vehicle_id" type="row"/>
+                    <field name="value" type="measure"/>
+                </graph>
+            </field>
+        </record>
+
+        <record model='ir.actions.act_window' id='fleet_vehicle_hoursmeter_act'>
+            <field name="name">Vehicles hoursmeter</field>
+            <field name="res_model">fleet.vehicle.hoursmeter</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,graph</field>
+            <field name="context">{"search_default_groupby_vehicle" : True}</field>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to create a new hoursmeter log.
+              </p>
+              <p>
+                Here you can add various hoursmeter entries for all vehicles.
+                You can also show hoursmeter value for a particular vehicle using
+                the search field.
+              </p>
+            </field>
+        </record>
+
+        <menuitem action="fleet_vehicle_hoursmeter_act" parent="fleet.fleet_vehicles" id="fleet_vehicle_hoursmeter_menu" groups="fleet.group_fleet_user"/>
+
+        <record model="ir.ui.view" id="empro_vehicle_vehicle">
+        <field name="name">fleet.vehicle.form</field>
+        <field name="model">fleet.vehicle</field>
+        <field name="inherit_id" ref="fleet.fleet_vehicle_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//sheet/div[2]/h2" position="after">
+                <label for="vehicle_code" class="oe_edit_only"/>
+                            <h2>
+                                <field name="vehicle_code" class="oe_inline"/></h2>
+            </xpath>
+            <xpath expr="//sheet/div[1]//button[5]" position="after">
+                <button name="empro_fleet_hoursmeter.fleet_vehicle_hoursmeter_act" type="action" class="oe_stat_button" icon="fa-tachometer"  >
+                    <field name="hoursmeter_count" widget="statinfo" string="Hoursmeter"/>
+                </button>
+            </xpath>
+            <xpath expr="//sheet/group[1]/group[2]/div[1]" position="after">
+                <field name="hoursmeter" class="oe_inline"/>
+                <field name="year" class="oe_inline"/>
+                <field name="is_rented" class="oe_inline"/>
+            </xpath>
+        </field>
+        </record>
+
+  </data>
+</openerp>

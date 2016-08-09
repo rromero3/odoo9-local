@@ -1,0 +1,156 @@
+# Spanish translation for openobject-addons
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR raul.romero@emproltda.com, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-01-21 14:09+0000\n"
+"PO-Revision-Date: 2014-10-01 01:45+0000\n"
+"Last-Translator: Raul Romero <raul.romero@emproltda.com>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-01-22 07:42+0000\n"
+"X-Generator: Launchpad (build 17306)\n"
+
+#. module: empro_fleet_hoursmeter
+#: model:ir.actions.act_window,help:empro_fleet_hoursmeter.fleet_vehicle_hoursmeter_act
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"               Click to create a new hoursmeter log.\n"
+"              </p>\n"
+"              <p>\n"
+"                Here you can add various hoursmeter entries for all vehicles.\n"
+"                You can also show hoursmeter value for a particular vehicle using\n"
+"                the search field.\n"
+"              </p>\n"
+"            "
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"               Click aqui para crear un nuevo registro de horometro..\n"
+"              </p>\n"
+"              <p>\n"
+"Aquí puede añadir varias entradas de horómetros para todos los vehículos.\n"
+"Puede también mostrar los valores de horómetro para un vehículo en \n"
+"particular usando el campo de búsqueda.\n"
+"              </p>\n"
+"            "
+
+#. module: empro_fleet_hoursmeter
+#: field:fleet.vehicle.hoursmeter,create_uid:0
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: empro_fleet_hoursmeter
+#: field:fleet.vehicle.hoursmeter,create_date:0
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: empro_fleet_hoursmeter
+#: field:fleet.vehicle.hoursmeter,date:0
+msgid "Date"
+msgstr "Fecha"
+
+#. module: empro_fleet_hoursmeter
+#: view:fleet.vehicle.hoursmeter:empro_fleet_hoursmeter.fleet_vehicle_hoursmeter_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: empro_fleet_hoursmeter
+#: field:fleet.vehicle.hoursmeter,write_uid:0
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: empro_fleet_hoursmeter
+#: field:fleet.vehicle.hoursmeter,write_date:0
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: empro_fleet_hoursmeter
+#: field:fleet.vehicle.hoursmeter,name:0
+msgid "Name"
+msgstr "Nombre"
+
+#. module: empro_fleet_hoursmeter
+#: field:fleet.vehicle.hoursmeter,notes:0
+msgid "Notes"
+msgstr "Notas"
+
+#. module: empro_fleet_hoursmeter
+#: field:fleet.vehicle,year:0
+msgid "Year"
+msgstr "Año"
+
+#. module: empro_fleet_hoursmeter
+#: field:fleet.vehicle,is_rented:0
+msgid "Is Rented"
+msgstr "Esta Alquilado"
+
+#. module: empro_fleet_hoursmeter
+#: field:fleet.vehicle,hoursmeter:0
+msgid "Last Hoursmeter"
+msgstr "Último horómetro"
+
+#. module: empro_fleet_hoursmeter
+#: view:fleet.vehicle.hoursmeter:empro_fleet_hoursmeter.fleet_vehicle_hoursmeter_form
+#: view:fleet.vehicle.hoursmeter:empro_fleet_hoursmeter.fleet_vehicle_hoursmeter_tree
+msgid "Hoursmeter Logs"
+msgstr "Registros de horómetros"
+
+#. module: empro_fleet_hoursmeter
+#: field:fleet.vehicle.hoursmeter,value:0
+msgid "Hoursmeter Value"
+msgstr "Valor del horómetro"
+
+#. module: empro_fleet_hoursmeter
+#: view:fleet.vehicle.hoursmeter:empro_fleet_hoursmeter.fleet_vehicle_hoursmeter_graph
+msgid "Hoursmeter Values Per Vehicle"
+msgstr "Valores del horómetro por vehículo"
+
+#. module: empro_fleet_hoursmeter
+#: view:fleet.vehicle.hoursmeter:empro_fleet_hoursmeter.fleet_vehicle_hoursmeter_search
+#: field:fleet.vehicle.hoursmeter,vehicle_id:0
+msgid "Vehicle"
+msgstr "Vehículo"
+
+#. module: empro_fleet_hoursmeter
+#: model:ir.actions.act_window,name:empro_fleet_hoursmeter.fleet_vehicle_hoursmeter_act
+#: model:ir.ui.menu,name:empro_fleet_hoursmeter.fleet_vehicle_hoursmeter_menu
+msgid "Vehicles hoursmeter"
+msgstr "Horómetro de los vehículos"
+
+#. module: fleet
+#: view:fleet.vehicle.hoursmeter:empro_fleet_hoursmeter.fleet_vehicle_hoursmeter_search
+msgid "Vehicles hoursmeters"
+msgstr "Odómetros de los vehículos"
+
+#. module: empro_fleet_hoursmeter
+#: view:empro_fleet_hoursmeter.vehicle:empro_fleet_hoursmeter.fleet_vehicle_form
+msgid "show the hoursmeter logs for this vehicle"
+msgstr "mostrar los registros de horometro para este vehículo"
+
+#~ msgid ""
+#~ "<p class=\"oe_view_nocontent_create\">\n"
+#~ "                Click to create a new hoursmeter log. \n"
+#~ "              </p>\n"
+#~ "              <p>\n"
+#~ "                Here you can add various hoursmeter entries for all vehicles.\n"
+#~ "                You can also show hoursmeter value for a particular vehicle "
+#~ "using\n"
+#~ "                the search field.\n"
+#~ "              </p>\n"
+#~ "            "
+#~ msgstr ""
+#~ "<p class=\"oe_view_nocontent_create\">\n"
+#~ "Pulse aquí para crear un nuevo registro de horoómetro (cuenta horas de uso).\n"
+#~ "</p>\n"
+#~ "<p>\n"
+#~ "Aquí puede añadir varias entradas de horómetros para todos los vehículos.\n"
+#~ "Puede también mostrar los valores de horómetro para un vehículo en particular "
+#~ "usando el campo de búsqueda.\n"
+#~ "</p>\n"
+#~ "            "
